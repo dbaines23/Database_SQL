@@ -1,10 +1,6 @@
-Derrick Baines
-November 27, 2017
-Assignment 7 - Relational Programming
 
 --Question 1
---I was getting help with this question but I didnt get to get a chance to ask before the end of office hours
---and the AI i emailed was not able to get back to me.
+
 drop table TC;
 create table TC(source integer, target integer);
 insert into TC values(1,2),(1,3),(2,1),(2,3)(3,4),(3,5),(4,3),(4,5),(5,3),(5,4);
@@ -112,7 +108,6 @@ end; $$ language plpgsql;
 	
 
 --Quesiton 3
---I used an function from the internet for this problem.
 CREATE OR REPLACE FUNCTION powerset(a anyarray)
 RETURNS SETOF anyarray AS $$
 DECLARE
@@ -143,14 +138,8 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql IMMUTABLE STRICT;
 
---SELECT * FROM powerset(ARRAY[1,2,3]);
-
-
---Question 4
---Getting hekp for this answer
 
 --Question 5
---(got help on this quesiton from David Argast)
 CREATE TABLE Graph(Source Integer, Target Integer);
 
 Insert Into Graph Values (1,1), (1,2), (1,3), (2,3), (3,1), (3,2);
@@ -280,7 +269,6 @@ SELECT HITS(0);
 SELECT * FROM HubAuthorityScores;
 
 --Question 6
---(got help on this quesiton from David Argast)
 CREATE TABLE WeightedGraph(Source Integer, Target Integer, Weight Integer);
  
 INSERT INTO WeightedGraph
