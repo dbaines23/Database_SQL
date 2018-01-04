@@ -1,7 +1,3 @@
---Derrick Baines
---September 1, 2017
---Assignment 1
-
 
 --Problem 1
 --DROP TABLE sailors;
