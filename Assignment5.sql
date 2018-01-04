@@ -1,6 +1,3 @@
---Derrick Baines
---October 19, 2017
---Assignment 5
 
 --DROP TABLE student;
 
