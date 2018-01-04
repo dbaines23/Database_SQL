@@ -1,8 +1,3 @@
---Derrick Baines
---September 6, 2017
---Assignment 2
---NOTE: I worked on a couple of questions from this assignment with Keith and Omkar
-
 --DROP TABLE student;
 
 CREATE TABLE student(sid INTEGER NOT NULL,
@@ -302,9 +297,6 @@ FROM cites c1, book b1, book b2, student s, buys b3
 WHERE c1.citedbookno = b1.bookno 
 AND c1.bookno = b2.bookno AND s.sid = b3.sid 
 AND c1.bookno = b3.bookno AND c1.citedbookno = 2001));
-
---(13)
- --working on this with the AI
 
 --(14)
 (SELECT s.sid
