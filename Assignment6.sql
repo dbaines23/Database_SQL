@@ -1,9 +1,4 @@
-Derrick Baines
-November 2, 2017
-Assignment 6
 
-
-3a.
 	--Translating the Optimized RA into SQL
 	Select s.sid, b1.bookno
 	--for each of the queries between the joins is a step and should be placed as a subquery in the from clause
