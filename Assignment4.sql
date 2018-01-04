@@ -1,7 +1,3 @@
---Derrick Baines
---October 6, 2017
---Assignment 4
-
 --DROP TABLE student;
 
 CREATE TABLE student(sid INTEGER NOT NULL,
