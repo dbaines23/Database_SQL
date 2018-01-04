@@ -1,6 +1,3 @@
--- Derrick Baines
--- September 26, 2017
--- Assignment 3
 
 --DROP TABLE student;
 
@@ -486,6 +483,3 @@ HAVING count(bookno) = (Select count(sid) from major where major = 'Biology');
 
 --(g)
 SELECT sp.s1, sp.s2 FROM pairs sp WHERE numcommonbooks(sp.s1, sp.s2) = 1;
-
---(h)
-
